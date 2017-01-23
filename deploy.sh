@@ -1,1 +1,1 @@
-git pull
+sudo git pull
