@@ -7,7 +7,7 @@
         if ($payload->ref == "refs/heads/master") {
 
             //ejecutar el script del servidor.
-            shell_exec('/var/www/html/deploy.sh 2>&1',$output);
+            exec('/var/www/html/deploy.sh 2>&1',$output);
             if (isset($output)) {
               print_r("hay output");
             }
