@@ -11,6 +11,8 @@
             shell_exec('./deploy.sh 2>&1',$output);
         }
         print_r($output);
+    }else {
+      print_r("hola");
     }
 
 ?>
