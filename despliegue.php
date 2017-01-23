@@ -10,7 +10,7 @@
             //ejecutar el script del servidor.
             shell_exec('./deploy.sh 2>&1',$output);
         }
-        echo $output;
+        print_r($output);
     }
 
 ?>
